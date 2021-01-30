@@ -1,0 +1,148 @@
+.title{
+  font-family:cursive;  
+    font-size: 2.4vw;
+    position: fixed;
+    left: 10vw;
+    top:1vw;
+    z-index: 2;
+}
+.menu_two{
+    font-family:cursive;
+    font-size: 0.65vw;
+    color: black;
+    position: fixed;
+    top: 0vw;
+    right: 13vw;
+     z-index: 1;
+}
+.menu_one{
+    position: fixed;
+    left: 3vw;
+    top:1vw;
+    font-family:cursive;
+    font-size: 1.3vw;
+     z-index: 1;
+}
+#uno, #dos, #tres{
+    color: black;
+    text-decoration: none;
+    padding-right: 2vw;
+    font-size: 1.3vw;
+     z-index: 1;
+}
+#uno{
+    padding-left: 24vw;
+}
+#uno:hover{
+    text-decoration: underline;
+}
+#dos:hover{
+    text-decoration: underline;
+}
+#tres:hover{
+    text-decoration: underline;
+}
+#five{
+    background-color: #e0e0e0;
+    padding-top: 0.85vw;
+    padding-bottom: 0.85vw;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+}
+#five:hover{
+    opacity: 0.75;
+    transition-duration: 0.3s;
+}
+#one:hover{
+    text-decoration: underline;
+}
+#two:hover{
+    text-decoration: underline;
+}
+#three:hover{
+    text-decoration: underline;
+}
+#four:hover{
+    text-decoration: underline;
+}
+
+.menu_background{
+    position: fixed;
+    top: -1vw;
+    left: -1vw;
+    width: 101vw;
+    height: 5.85vw;
+    background-color: white;
+    z-index: 1;
+}
+
+
+.one_text{
+    width: 90.5vw;
+    height: 36vw;
+    position: absolute;
+    left: 0vw;
+    top: 8.3vw;
+}
+#one_type{
+    position: absolute;
+   left: 58vw;
+    top: 2.3vw;
+    font-size: 1.3vw;
+    font-family: cursive;
+}
+#one_title{
+    position: absolute;
+    left: 58vw;
+    top: 6.3vw;
+    font-size: 3vw;
+    font-family: cursive;
+}
+#one_author{
+    position: absolute;
+    left: 58vw;
+    top: 16.5vw;
+    font-size: 1.1vw;
+    font-family: fantasy;
+    font-weight:bolder;
+}
+#one_date{
+    position: absolute;
+    left: 58vw;
+    right: 3.5vw;
+    top: 13vw;
+    font-size: 1vw;
+    font-family: fantasy;
+    color: #666666;
+}
+#one_quote{
+    position: absolute;
+    left: 58vw;
+    right: 3.5vw;
+    top: 21.5vw;
+    font-size: 1.3vw;
+    font-family: fantasy;
+}
+.one_picture{
+    width: 43vw;
+    height: 28vw;
+    background-image: url("lady.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 8.3vw;
+    left: 10vw;
+}
+
+
+
+.main_content{
+    width: 49vw;
+    position: absolute;
+    left: 24vw;
+    top: 41vw;
+    line-height: 1.9vw;
+    letter-spacing: 0.08vw;
+    word-spacing: 0.1vw;
+}
+
+

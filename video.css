@@ -1,0 +1,107 @@
+.title{
+  font-family:cursive;  
+    font-size: 2.4vw;
+    position: fixed;
+    left: 10vw;
+    top:1vw;
+    z-index: 2;
+}
+.menu_two{
+    font-family:cursive;
+    font-size: 0.65vw;
+    color: black;
+    position: fixed;
+    top: 0vw;
+    right: 13vw;
+     z-index: 1;
+}
+.menu_one{
+    position: fixed;
+    left: 3vw;
+    top:1vw;
+    font-family:cursive;
+    font-size: 1.3vw;
+     z-index: 1;
+}
+#uno, #dos, #tres{
+    color: black;
+    text-decoration: none;
+    padding-right: 2vw;
+    font-size: 1.3vw;
+     z-index: 1;
+}
+#uno{
+    padding-left: 24vw;
+}
+#uno:hover{
+    text-decoration: underline;
+}
+#dos:hover{
+    text-decoration: underline;
+}
+#tres:hover{
+    text-decoration: underline;
+}
+#five{
+    background-color: #e0e0e0;
+    padding-top: 0.85vw;
+    padding-bottom: 0.85vw;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+}
+#five:hover{
+    opacity: 0.75;
+    transition-duration: 0.3s;
+}
+#one:hover{
+    text-decoration: underline;
+}
+#two:hover{
+    text-decoration: underline;
+}
+#three:hover{
+    text-decoration: underline;
+}
+#four:hover{
+    text-decoration: underline;
+}
+
+.menu_background{
+    position: fixed;
+    top: -1vw;
+    left: -1vw;
+    width: 101vw;
+    height: 5.85vw;
+    background-color: white;
+    z-index: 1;
+}
+
+
+.startup_weekend_video_image{
+    position: fixed;
+    top: 10vw;
+    left: 10vw;
+}
+.startup_weekend_video_text{
+    position: fixed;
+    top: 21.9vw;
+    left: 10vw;
+    font-size: 1vw;
+}
+.startup_weekend_video_image:hover{
+    opacity: 0.8;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+#startup_weekend_video_title:hover{
+    text-decoration: underline;
+}

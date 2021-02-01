@@ -125,3 +125,15 @@ a:visited{
 a:hover{
     text-decoration: underline;
 }
+.main_title_image_one{
+    position: absolute;
+    top: 16vw;
+    left: 19vw;
+    animation: imageswitch 6s infinite;
+}
+@keyframes imageswitch{
+  0%   {opacity: 1;}
+  43%  {opacity: 1;}
+  50%  {opacity: 0;}
+  93% {opacity: 0;}
+}

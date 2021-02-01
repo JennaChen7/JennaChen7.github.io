@@ -150,6 +150,7 @@
     position: absolute;
     top: 40.7vw;
     font-family: monospace;
+    font-size: 1vw;
 }
 .menu_background{
     position: fixed;

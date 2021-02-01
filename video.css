@@ -84,9 +84,11 @@
 }
 .startup_weekend_video_text{
     position: fixed;
-    top: 21.9vw;
-    left: 10vw;
+    top: 4.8vw;
+    left: 21.9vw;
     font-size: 1vw;
+    text-align: left;
+    line-height: 160%;
 }
 .startup_weekend_video_image:hover{
     opacity: 0.8;
@@ -105,3 +107,4 @@ a:hover{
 #startup_weekend_video_title:hover{
     text-decoration: underline;
 }
+

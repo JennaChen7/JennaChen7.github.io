@@ -1,0 +1,127 @@
+.title{
+  font-family:cursive;  
+    font-size: 2.4vw;
+    position: fixed;
+    left: 10vw;
+    top:1vw;
+    z-index: 2;
+}
+.menu_two{
+    font-family:cursive;
+    font-size: 0.65vw;
+    color: black;
+    position: fixed;
+    top: 0vw;
+    right: 13vw;
+     z-index: 1;
+}
+.menu_one{
+    position: fixed;
+    left: 3vw;
+    top:1vw;
+    font-family:cursive;
+    font-size: 1.3vw;
+     z-index: 1;
+}
+#uno, #dos, #tres{
+    color: black;
+    text-decoration: none;
+    padding-right: 2vw;
+    font-size: 1.3vw;
+     z-index: 1;
+}
+#uno{
+    padding-left: 24vw;
+}
+#uno:hover{
+    text-decoration: underline;
+}
+#dos:hover{
+    text-decoration: underline;
+}
+#tres:hover{
+    text-decoration: underline;
+}
+#five{
+    background-color: #e0e0e0;
+    padding-top: 0.85vw;
+    padding-bottom: 0.85vw;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+}
+#five:hover{
+    opacity: 0.75;
+    transition-duration: 0.3s;
+}
+#one:hover{
+    text-decoration: underline;
+}
+#two:hover{
+    text-decoration: underline;
+}
+#three:hover{
+    text-decoration: underline;
+}
+#four:hover{
+    text-decoration: underline;
+}
+
+.menu_background{
+    position: fixed;
+    top: -1vw;
+    left: -1vw;
+    width: 101vw;
+    height: 5.85vw;
+    background-color: white;
+    z-index: 1;
+}
+.main_title{
+    position: absolute;
+    top: 10vw;
+    font-size: 2.6vw;
+    left: 19vw;
+}
+.main_title_image{
+    position: absolute;
+    top: 16vw;
+    left: 19vw;
+}
+.main_author{
+    position: absolute;
+    top: 57vw;
+    left: 19vw;
+    font-size:0.9vw;
+    color: gray;
+}
+.main_date{
+    position: absolute;
+    top: 57vw;
+    right: 19vw;
+    font-size:0.9vw;
+    color: gray;
+}
+.main_image_scripture{
+    position: absolute;
+    top: 53vw;
+    left: 19vw;
+    font-size: 1.1vw;
+}
+.main_content{
+    position: absolute;
+    top: 60vw;
+    left: 19vw;
+    width: 62vw;
+    line-height: 1.9vw;
+    letter-spacing: 0.08vw;
+    word-spacing: 0.1vw;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

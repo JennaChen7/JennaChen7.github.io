@@ -23,7 +23,7 @@
     font-size: 1.3vw;
      z-index: 1;
 }
-#uno, #dos, #tres{
+#uno, #dos, #tres, #cuadro{
     color: black;
     text-decoration: none;
     padding-right: 2vw;
@@ -42,6 +42,10 @@
 #tres:hover{
     text-decoration: underline;
 }
+#cuadro:hover{
+    text-decoration: underline;
+}
+
 #five{
     background-color: #e0e0e0;
     padding-top: 0.85vw;
@@ -49,10 +53,7 @@
     padding-left: 0.1vw;
     padding-right: 0.1vw;
 }
-#five:hover{
-    opacity: 0.75;
-    transition-duration: 0.3s;
-}
+
 #one:hover{
     text-decoration: underline;
 }
@@ -65,8 +66,10 @@
 #four:hover{
     text-decoration: underline;
 }
-
-
+#five:hover{
+    opacity: 0.75;
+    transition-duration: 0.3s;
+}
 
 
 

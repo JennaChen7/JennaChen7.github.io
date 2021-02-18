@@ -70,3 +70,24 @@
     opacity: 0.75;
     transition-duration: 0.3s;
 }
+.items{
+    position: absolute;
+    left: 26vw;
+    top: 9.9vw;
+    text-align: left;
+}
+#second_item{
+   font-size: 1.9vw;
+}
+#third_item{
+    font-size: 1vw;
+    padding-bottom: 0.8vw;
+}
+#fourth_item{
+    font-size: 0.9vw;
+}
+#first_image{
+position: absolute;
+    top: 10vw;
+    left: 10vw;
+}

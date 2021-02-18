@@ -1,0 +1,81 @@
+<!doctype html><html>
+<head>
+    <title>project</title>
+    <meta charset="utf-8">
+   <link href="MySQLguide.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <div class="title">
+        Jenna Chen   
+        </div>
+        <div class="menu_background"></div>
+    <div class="menu_two">
+            <table style="width:135%">
+                <tr>
+                    <th> <h1 id="four">Log in</h1></th>
+                    <th> <h1 id="five">Get Started</h1></th>
+                    </tr>
+            </table>
+        </div>
+    <div class="menu_one">
+        <table>
+        <tr>
+                    <th><a id="uno" href="homepage.html">My Story</a></th>
+                    <th>  <a id="dos" href="writingpage.html">Writing</a></th>
+            <th> <a id="tres" href="video.html">Video</a></th>
+            <th><a id="cuadro" href="blog.html">Blog</a></th>
+        </tr>
+            </table>
+        </div>
+        
+        <div class="content_title">MySQL Installation Guide</div>
+        <div class="content_content">
+        I was trying to build a login interface for this website. So first it was like...<br>
+            <br><div id="meme_one"><img src="gaitubao_Screen%20Shot%202021-02-18%20at%205.15.07%20PM_jpg.jpg" class="center"></div>
+           <p>Ok.<br>
+            First I need to create a database using MySQL. For Mac users with the M1 chip, MySQL Branch may not be downloaded successfully.<br>
+            I used MySQL instead.<br>
+               So you can download it from the offical site(I used a mirror so it works faster in my country[http://mirrors.sohu.com/mysql/].</p>
+            <p>Then, just continue with the installation...</p>
+            <p>Here on the configuration page select the second one and set your password.</p>
+            <div id="meme_two"><img src="gaitubao_Screen%20Shot%202021-02-18%20at%205.25.28%20PM_jpg.jpg" class="center"></div>
+            <p>After you finish installation nothing will show up on the desktop(Don't worry it's working).<br>
+            Then, open terminal and type in the following two lines:<br><br>
+            'cd /'<br>
+            'sudo vim ./.bash_profile'
+            <br><br>
+            (Don't include the quotation mark)<br>
+            It will than ask you to enter your password(the one you set during installation)<br>
+            The password WILL NOT SHOW UP on the line. When you're done just hit enter.<br><br>
+            Then it will bring you to a page looking like this:
+            <div id="meme_three"><img src="gaitubao_Screen%20Shot%202021-02-18%20at%205.46.50%20PM_jpg.jpg" class="center"></div>
+            Press i and the last line will say "INSERT" in bold.<br>
+            Then, enter these two lines:<br><br>
+            'export PATH=$PATH:/usr/local/mysql/bin<br>
+             export PATH=$PATH:/usr/local/mysql/support-files'<br><br>
+            Press esc and then type ': wq', which will show up on the last line.<br>
+            Hit enter.<br><br>
+            If everything went right you should be back on the page where you just typed 'sudo vim ./.bash_profile'.<br>
+            Then, enter this line:<br><br>
+            'source ~/.bash_profile'
+            <br><br>
+            Nothing will show up because this only refresh the environment. After this, enter this line:<br><br>
+            'mysql -u root -p'<br><br>
+            and enter your password again.<br>
+            If nothing went wrong something like this should show up:<br><br>
+            <div id="meme_four"><img src="gaitubao_Screen%20Shot%202021-02-18%20at%205.58.53%20PM_jpg.jpg" class="center"></div>
+            <br>
+            Finished!<br>
+            <br><div id="meme=five"><img src="gaitubao_Screen%20Shot%202021-02-18%20at%206.02.11%20PM_jpg.jpg" class="center" width="500"></div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </body>
+</html>

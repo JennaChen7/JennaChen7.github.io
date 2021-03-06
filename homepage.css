@@ -1,38 +1,43 @@
 .title{
   font-family:cursive;  
-    font-size: 2.4vw;
-    position: fixed;
-    left: 10vw;
-    top:1vw;
+    font-size: 35px;
+    margin-top: 0.3%;
+    margin-left: 10%;
     z-index: 2;
+    float: left;
 }
 .menu_two{
     font-family:cursive;
-    font-size: 0.65vw;
+    font-size: 10px;
     color: black;
-    position: fixed;
-    top: 0vw;
-    right: 13vw;
+    margin-top: -0.3%;
+    margin-right: 10%;
      z-index: 1;
+    float: right;
 }
 .menu_one{
-    position: fixed;
-    left: 3vw;
-    top:1vw;
     font-family:cursive;
-    font-size: 1.3vw;
+    font-size: 13px;
      z-index: 1;
+    position: absolute;
+    left: 26vw;
+    top: 1vw;
 }
 #uno, #dos, #tres, #cuadro{
     color: black;
     text-decoration: none;
-    padding-right: 2vw;
-    font-size: 1.3vw;
+    font-size: 19px;
      z-index: 1;
+    padding-right: 30%;
 }
-#uno{
-    padding-left: 24vw;
+.menu_uno{
+    border: 10px solid transparent;
+    width: 300px;
+    height: 150px;
+    margin-left: 50px;
+    float: left;
 }
+
 #uno:hover{
     text-decoration: underline;
 }
@@ -82,7 +87,8 @@
     word-spacing: 0.5vw;
     top: 21vw;
     right: 5.5vw;
-    font-size: 3vw;
+    font-size: 30px;
+    width: 50vw;
 }
 
 #maincontent_text{
@@ -92,7 +98,7 @@
     right: 5vw;
     height: 10vw;
     width: 41vw;
-    font-size: 1.3vw;
+    font-size: 13px;
     font-family: fantasy;
     line-height: 170%;
 }
@@ -102,13 +108,14 @@
     left: 4vw;
     font-family: fantasy;
     line-height: 150%;
-    font-size: 2.6vw;
+    font-size: 26px;
+    width: 50vw;
 }
 #big_beautiful_pretty_begin_button{
     position: fixed;
-    top: 49vw;
+    bottom: 5vw;
     left: 4vw;
-    font-size: 1.4vw;
+    font-size: 14px;
     font-family: cursive;
     padding-top: 1vw;
     padding-bottom: 1vw;
@@ -116,6 +123,8 @@
     padding-right: 1.8vw;
     background-color: #e0e0e0;
     color: black;
+    float: left;
+    clear: both;
 }
 #big_beautiful_pretty_begin_button:hover{
     background-color: #cccccc;

@@ -1,0 +1,144 @@
+.main_title{
+    font-size: 35px;
+    left: 19vw;
+    margin-top: 1%;
+    text-align: center;
+}
+.main_title_image{
+   text-align: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+.main_author{
+    font-size:14px;
+    color: gray;
+    margin-left: 69%;
+}
+.main_date{
+    font-size:14px;
+    color: gray;
+    margin-left: 19%;
+    margin-top: -23px;
+}
+.main_image_scripture{
+    font-size: 14px;
+    clear: both;
+    text-align: center;
+}
+.main_content{
+    width: 62vw;
+    line-height: 190%;
+    font-size: 19px;
+    margin-left: 19%;
+    margin-top: 4%;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.main_title_image_one{
+    position: absolute;
+    top: 31%;
+    left: 19vw;
+    animation: imageswitch 9s infinite;
+}
+@keyframes imageswitch{
+  0%   {opacity: 1;}
+  43%  {opacity: 1;}
+  50%  {opacity: 0;}
+  93% {opacity: 0;}
+}
+video{
+    width: 60vw;
+}
+
+
+
+.header{
+    border: black 1px solid;
+    border-bottom: black 3px solid;
+    border-right: none;
+}
+.menu{
+    margin-left: -39px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+    top: 10vw;
+  z-index: 1;
+  height: 1000px;
+  top: 0;
+  left: 0;
+  background-color:#E0E0E0;
+    box-shadow: 1px 1px 10px #111111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 14px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: gray;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #AAAAAA;
+  padding: 10px 15px;
+  border: none;
+    transition: 0.3s;
+}
+
+.openbtn:hover {
+  background-color:#444;
+    color: #FFFFFF;
+}
+a{
+    font-family: serif;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+   color: gray; 
+}
+.clearfix::after {
+  content: "";
+  clear: both;

@@ -1,0 +1,103 @@
+.title{
+  font-family:cursive;  
+    font-size: 2.4vw;
+    position: fixed;
+    left: 10vw;
+    top:1vw;
+    z-index: 2;
+}
+.menu_two{
+    font-family:cursive;
+    font-size: 0.65vw;
+    color: black;
+    position: fixed;
+    top: 0vw;
+    right: 13vw;
+     z-index: 1;
+}
+.menu_one{
+    position: fixed;
+    left: 3vw;
+    top:1vw;
+    font-family:cursive;
+    font-size: 1.3vw;
+     z-index: 1;
+}
+#uno, #dos, #tres, #cuadro{
+    color: black;
+    text-decoration: none;
+    padding-right: 2vw;
+    font-size: 1.3vw;
+     z-index: 1;
+}
+#uno{
+    padding-left: 24vw;
+}
+#uno:hover{
+    text-decoration: underline;
+}
+#dos:hover{
+    text-decoration: underline;
+}
+#tres:hover{
+    text-decoration: underline;
+}
+#cuadro:hover{
+    text-decoration: underline;
+}
+
+#five{
+    background-color: #e0e0e0;
+    padding-top: 0.85vw;
+    padding-bottom: 0.85vw;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+}
+
+#one:hover{
+    text-decoration: underline;
+}
+#two:hover{
+    text-decoration: underline;
+}
+#three:hover{
+    text-decoration: underline;
+}
+#four:hover{
+    text-decoration: underline;
+}
+#five:hover{
+    opacity: 0.75;
+    transition-duration: 0.3s;
+}
+.items{
+    position: absolute;
+    left: 26vw;
+    top: 9.9vw;
+    text-align: left;
+}
+#second_item{
+   font-size: 1.9vw;
+}
+#third_item{
+    font-size: 1vw;
+    padding-bottom: 0.8vw;
+}
+#fourth_item{
+    font-size: 0.9vw;
+}
+#first_image{
+position: absolute;
+    top: 10vw;
+    left: 10vw;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}

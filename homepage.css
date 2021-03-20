@@ -1,161 +1,130 @@
-.title{
-  font-family:cursive;  
-    font-size: 35px;
-    margin-top: 0.3%;
-    margin-left: 10%;
-    z-index: 2;
-    float: left;
+.header{
+    border: black 1px solid;
+    border-bottom: black 3px solid;
+    border-right: none;
 }
-.menu_two{
-    font-family:cursive;
-    font-size: 10px;
-    color: black;
-    margin-top: -0.3%;
-    margin-right: 10%;
-     z-index: 1;
-    float: right;
+.menu{
+    margin-left: -39px;
 }
-.menu_one{
-    font-family:cursive;
-    font-size: 13px;
-     z-index: 1;
-    position: absolute;
-    left: 26vw;
-    top: 1vw;
+
+li{
+    border-right: black 1.7px solid;
+   padding-right: 18px;
+    padding-left: 18px;
 }
-#uno, #dos, #tres, #cuadro{
+ul{
+    list-style-position: inside;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 50%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 33%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 25.19%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+@media only screen and (max-width: 1024px) {
+  [class*="col-"] {
+    width: 50%;
+  }
+   [class*="col-9"] {
+    width: 100%;
+  } 
+}
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 108%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+}
+body{
+   background-color: #F0F0F0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 1000px;
+  top: 0;
+  left: 0;
+  background-color:#E0E0E0;
+    box-shadow: 1px 1px 10px #111111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 14px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: gray;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #AAAAAA;
+  padding: 10px 15px;
+  border: none;
+    transition: 0.3s;
+}
+
+.openbtn:hover {
+  background-color:#444;
+    color: #FFFFFF;
+}
+a{
+    font-family: serif;
     color: black;
     text-decoration: none;
-    font-size: 19px;
-     z-index: 1;
-    padding-right: 30%;
-}
-.menu_uno{
-    border: 10px solid transparent;
-    width: 300px;
-    height: 150px;
-    margin-left: 50px;
-    float: left;
-}
-
-#uno:hover{
-    text-decoration: underline;
-}
-#dos:hover{
-    text-decoration: underline;
-}
-#tres:hover{
-    text-decoration: underline;
-}
-#cuadro:hover{
-    text-decoration: underline;
-}
-
-#five{
-    background-color: #e0e0e0;
-    padding-top: 0.85vw;
-    padding-bottom: 0.85vw;
-    padding-left: 0.1vw;
-    padding-right: 0.1vw;
-}
-
-#one:hover{
-    text-decoration: underline;
-}
-#two:hover{
-    text-decoration: underline;
-}
-#three:hover{
-    text-decoration: underline;
-}
-#four:hover{
-    text-decoration: underline;
-}
-#five:hover{
-    opacity: 0.75;
-    transition-duration: 0.3s;
-}
-
-
-
-
-
-
-.subtitle{
-    font-family: fantasy;
-    position: fixed;
-    word-spacing: 0.5vw;
-    top: 21vw;
-    right: 5.5vw;
-    font-size: 30px;
-    width: 50vw;
-}
-
-#maincontent_text{
-    /*color: white;*/
-    position: fixed;
-    top: 40vw;
-    right: 5vw;
-    height: 10vw;
-    width: 41vw;
-    font-size: 13px;
-    font-family: fantasy;
-    line-height: 170%;
-}
-#subcontent_text{
-    position: fixed;
-    top: 39vw;
-    left: 4vw;
-    font-family: fantasy;
-    line-height: 150%;
-    font-size: 26px;
-    width: 50vw;
-}
-#big_beautiful_pretty_begin_button{
-    position: fixed;
-    bottom: 5vw;
-    left: 4vw;
-    font-size: 14px;
-    font-family: cursive;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    padding-left: 1.8vw;
-    padding-right: 1.8vw;
-    background-color: #e0e0e0;
-    color: black;
-    float: left;
-    clear: both;
-}
-#big_beautiful_pretty_begin_button:hover{
-    background-color: #cccccc;
-    transition-duration: 0.3s;
-}
-a:link{
-    text-decoration: none;
-    color: black;
+    transition: 0.3s;
 }
 a:visited{
-    text-decoration: none;
     color: black;
 }
-.background_image_opacity{
-    position: fixed;
-     top: -1vw;
-    left: 0vw;
-    width: 100vw;
-    height: 39vw;
-    background-color: black;
-    opacity: 0.3;
-}
-.background_image{
-   position: fixed;
-    top: 2vw;
-    left: 1vw;
-    padding-top: 3vw;
-    padding-left: 3vw;
-    background-image: url("WechatIMG3_meitu_2.jpg");
-    background-size: 85%;
-    width: 51vw;
-    height: 33vw;
-    z-index: -1; 
+a:hover{
+   color: gray; 
 }

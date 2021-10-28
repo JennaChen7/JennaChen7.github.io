@@ -40,8 +40,8 @@ img{
 
 @media screen and (max-width:600px) {
     .main{
-        padding-left: 18%;
-        padding-right: 18%;
+        padding-left: 14%;
+        padding-right: 14%;
     }
     img{
         width: 100%;

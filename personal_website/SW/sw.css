@@ -45,6 +45,7 @@ video{
 @media screen and (max-width:600px) {
     video{
         width: 100%;
+        padding-left: 0%;
     }
     .main_content{
         padding-left: 9%;

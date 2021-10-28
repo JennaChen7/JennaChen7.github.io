@@ -26,6 +26,7 @@ body {
     border-bottom: solid;
     border-color: black;
     border-width: thin;
+    z-index: 3;
 }
 
 /* Style the topnav links */

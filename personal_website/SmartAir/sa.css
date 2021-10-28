@@ -32,6 +32,12 @@
 
 
 
+img{
+    border: solid;
+    border-width:medium;
+    border-color: white;
+}
+
 @media screen and (max-width:600px) {
     .main{
         padding-left: 18%;
